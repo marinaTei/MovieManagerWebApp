@@ -78,6 +78,9 @@
     <Build Include="dbo\Tables\MovieXExtraGenre.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\20211023 - Database Initial Structure.sql" />
+    <None Include="Scripts\001 - 20211023 - Database Initial Structure.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Database.refactorlog" />
   </ItemGroup>
 </Project>

@@ -8,9 +8,9 @@ using System.Web;
 
 namespace MovieManagerWebApp.DAL
 {
-    public class AppContext : DbContext
+    public class DbAppContext : DbContext
     {
-        public AppContext() : base("AppContext")
+        public DbAppContext() : base("DbAppContext")
         {
         }
 

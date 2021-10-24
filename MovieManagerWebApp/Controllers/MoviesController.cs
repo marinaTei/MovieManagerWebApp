@@ -13,7 +13,7 @@ namespace MovieManagerWebApp.Controllers
 {
     public class MoviesController : Controller
     {
-        private MovieManagerWebApp.DAL.AppContext db = new MovieManagerWebApp.DAL.AppContext();
+        private DbAppContext db = new DbAppContext();
 
         // GET: Movies
         public ActionResult Index()

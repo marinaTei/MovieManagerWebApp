@@ -202,7 +202,7 @@
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\MoviesController.cs" />
-    <Compile Include="DAL\AppContext.cs" />
+    <Compile Include="DAL\DbAppContext.cs" />
     <Compile Include="Models\Actor.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\DirectorXCountry.cs" />
